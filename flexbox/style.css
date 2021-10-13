@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.item {
+    background-color: orange;
+    padding: 20px;
+}
+
+.nav {
+    font-family: sans-serif;
+    color: white;
+    background-color: darkslateblue;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 30%
+}
+
+.links {
+    width: 50%;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
