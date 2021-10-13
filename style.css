@@ -1,0 +1,94 @@
+h1 {
+    color: orange;
+}
+
+/* Plotting our blocks */
+
+div {
+    margin: 5px;
+}
+
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    padding: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    /* margin: 10px; */
+    display: inline-block;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+}
+
+/* Buttons */
+
+.plus {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50%;
+    border-width: 0px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 3px 3px silver;
+}
+
+.plus:active {
+    background-color: grey;
+    margin-left: 3px;
+    margin-top: 6px;
+    box-shadow: 2px 0px 0px silver;
+}
+
+.plus:hover{
+    background-color: orange;
+}
+
+.click {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 50px;
+    border-width: 10px;
+    border-top-color: pink;
+    border-left-color: pink;
+    border-bottom-color: cyan;
+    border-right-color: cyan;
+    background: rgb(43,45,193);
+    background: linear-gradient(146deg, rgba(43,45,193,1) 0%, rgba(35,227,226,1) 38%, rgba(29,111,253,1) 67%, rgba(141,69,252,1) 100%);
+}
+
+.click:active {
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: orange;
+    border-right-color: orange;
+    background: rgb(43,193,190);
+    background: linear-gradient(146deg, rgba(43,193,190,1) 0%, rgba(35,98,227,1) 38%, rgba(29,111,253,1) 67%, rgba(69,252,230,1) 100%);
+}
